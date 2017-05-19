@@ -11,5 +11,5 @@ fi
 for DOTFILE in "$DOTFILES_DIR"/system/.{alias,env,function,path,prompt};
 do
 	echo "Found config file $DOTFILE"
-	# [ -f "$DOTFILE" ] && source "$DOTFILE"
+	[ -f "$DOTFILE" ] && source "$DOTFILE"
 done

@@ -6,3 +6,20 @@ alias bashrc='nano ~/.bashrc && source ~/.bashrc'
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 # alias to check ping to google i.e. internet connection
 alias pinggoog="ping www.google.com -c 5" 
+
+# Show file structure
+alias tree="tree -A"
+# show only dirs
+alias treed="tree -d"
+alias tree1="tree -d -L 1"
+alias tree2="tree -d -L 2"
+
+# Return my IP address
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+# easy dir up
+alias ..="cd .."
+# easy back dir
+alias -- -="cd -"
+# show dirs first in ls
+alias lsg="ls --group-directories-first"

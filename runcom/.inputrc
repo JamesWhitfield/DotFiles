@@ -1,0 +1,2 @@
+# Flip through autocompletion matches with Shift-Tab.
+"\e[Z": menu-complete

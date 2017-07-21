@@ -1,5 +1,5 @@
 # aws rds alias
-alias rds='autossh -i "~/Documents/Keys/SE_AWS_EC2_1.pem" -L 5500:nrsepg1.cziwn7u3yjjo.eu-west-1.rds.amazonaws.com:5432 ec2-user@ec2-54-171-170-200.eu-west-1.compute.amazonaws.com -v'
+alias rds='autossh -i "~/Documents/Keys/SE_AWS_EC2_1.pem" -L 5500:nrsepg1.cziwn7u3yjjo.eu-west-1.rds.amazonaws.com:5432 -L 1465:email-smtp.eu-west-1.amazonaws.com:465 ec2-user@ec2-54-171-170-200.eu-west-1.compute.amazonaws.com -v'
 # update .bashrc
 alias bashrc='nano ~/.bashrc && source ~/.bashrc'
 # show process
